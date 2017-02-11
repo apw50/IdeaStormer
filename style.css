@@ -4,17 +4,10 @@
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
 	border-radius: 100px;
-	background-color: rgba(0,0,0,0);
+	background: red;
 	margin: auto;
 	vertical-align: center;
-	visibility: hidden;
 }
-
-img {
-	max-width: 100%;
-	height: auto;
-}
-
 
 footer
 {
