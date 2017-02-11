@@ -1,7 +1,8 @@
 $(document).ready(function(){
-	$('#wrapper').css({top:'50%',left:'50%',margin:'-'+($('#wrapper').height() / 2)+'px 0 0 -'+($('#wrapper').width() / 2)+'px'});
-	$('centerNode').click(function(){
-		$(this).fadeTo("slow", .25);
+	alert("working");
+	
+	$('#Node').click(function(){
+		alert("Hello");
 	});
 	
 	var input;
@@ -24,6 +25,6 @@ $(document).ready(function(){
 			$('centerNode h3').html(data.items[0].title);
 		});
 		
-	});
+	}});
 	
 });
